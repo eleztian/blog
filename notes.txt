@@ -1,0 +1,76 @@
+1. 如果多个case同时就绪时，select会随机地选择一个执行，这样来保证每一个channel都有平等的被select的机会
+2. tick := time.Tick(1 * time.Second)， <-tick; 这是一个不能关闭的goroutine，如果不是在整个程序的生命周期里都需要使用，那么这个就会造成goroutine泄露，这是应该使用：
+	ticker := time.NewTicker(1 * time.Second)
+	<-ticker.C    // receive from the ticker's channe
+	ticker.Stop() // cause the ticker's goroutine to terminate
+3. GOMAXPROCS其默认的值是运行机器上的CPU的核心数。可以用GOMAXPROCS的环境变量来显式地控制这个参数， GOMAXPROCS=1 go run test.go
+4. panic-defer(recover): panic 抛出异常， recover捕获异常， recover在defer中使用， 但是recover之后程序逻辑并不会在panic处继续。panic 程序停止运行进入defer中
+panic只能向上传播，沿着函数调用堆栈反向。panic从不通过深入到函数调用中传播。
+如：
+func main() { // calling level 0
+	defer func() { //d1
+		fmt.Println("now level 0")
+		if x := recover(); x != nil {
+			fmt.Println("recover panic")
+		}
+	}()
+	defer func() { //d2
+		defer func() { d21
+			fmt.Println("now level 1")
+		}()
+		defer func() { d22
+			if x := recover(); x != nil {
+				fmt.Println("recover panic")
+			}
+		}()
+	}()
+
+	func(){ //p
+		defer func() {
+			fmt.Println("now level 1")
+		}()
+		panic(1) 
+	}()
+
+}
+//output:
+now level 1
+now level 1
+now level 0
+recover panic
+p*                              d22          
+d2                              d21(p*)      d21
+d1			-->     d1        -->d1*
+goroutine			goroutine    goroutine*
+
+panic级别意味着panic传播到函数调用的哪一层级、因为panic只能向上传递、所以panic等级永远不加增加、只会减小、在goroutine中，当前panic的水平永远不会大于goroutine的执行水平。
+
+Example:
+package main
+
+import"fmt"
+func main(){
+    defer fmt.Println("program will not crash")
+    defer func(){
+        fmt.Println(recover())// 3
+    }()
+    defer fmt.Println("now, panic 3 suppresses panic 2")
+    defer panic(3)
+    defer fmt.Println("now, panic 2 suppresses panic 1")
+    defer panic(2)
+    panic(1)
+}
+在goroutine中最多只有一个活动的panic。
+
+
+自定义类型的string循环问题
+如果自定义的类型定义了String方法，那么在打印的时候会产生隐藏的一些bug
+
+type MyInt int
+func (m MyInt) String() string { 
+    return fmt.Sprint(m)   //BUG:死循环
+}
+
+func(m MyInt) String() string { 
+    return fmt.Sprint(int(m))   //这是安全的,因为我们内部进行了类型转换
+}
