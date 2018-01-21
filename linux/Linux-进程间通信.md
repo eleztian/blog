@@ -1,5 +1,5 @@
 ---
-title: [Linux Learning]  Interprocess Communication
+title: "[Linux Learning]  Interprocess Communication"
 short: ""
 date: 10.Oct.2017
 tags:

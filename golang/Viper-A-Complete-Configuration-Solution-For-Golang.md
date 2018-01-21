@@ -1,5 +1,5 @@
 ---
-title: [Golang Learning]  Viper - A Complete Configuration Solution
+title: "[Golang Learning]  Viper - A Complete Configuration Solution"
 short: "Viper is a complete configuration solution for Go applications including 12-Factor apps. It is designed to work within an application, and can handle all types of configuration needs and formats. Let's know aboout it. "
 date: 13.Dec.2017
 tags:

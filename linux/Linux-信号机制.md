@@ -1,5 +1,5 @@
 ---
-title: [Linux Learning]  Linux Singals
+title: "[Linux Learning]  Linux Singals"
 short: ""
 date: 11.Sep.2017
 tags:

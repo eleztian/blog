@@ -1,5 +1,5 @@
 ---
-title: [Golang Learning]  Command And Parameters
+title: "[Golang Learning]  Command And Parameters"
 short: "The ways of getting the command line and parameters of golang."
 date: 16.Dec.2017
 tags:

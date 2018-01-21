@@ -1,5 +1,5 @@
 ---
-title: [FreeRTOS Learning] Task Notification
+title: "[FreeRTOS Learning] Task Notification"
 short: ""
 date: 05.Oct.2016
 tags:

@@ -1,5 +1,5 @@
 ---
-title: [Golang Learning]  Memory Maps
+title: "[Golang Learning]  Memory Maps"
 short: "The notes of golang about memory map."
 date: 15.Jan.2018
 tags:

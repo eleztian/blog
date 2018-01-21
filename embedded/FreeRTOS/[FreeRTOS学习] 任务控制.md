@@ -1,5 +1,5 @@
 ---
-title: [FreeRTOS Learning] Task Control. 
+title: "[FreeRTOS Learning] Task Control"
 short: ""
 date: 06.Oct.2016
 tags:

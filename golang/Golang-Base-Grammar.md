@@ -1,5 +1,5 @@
 ---
-title: [Golang Learning]  The Base Grammar
+title: "[Golang Learning]  The Base Grammar"
 short: "Golang base grammer, Zhe different with other program grammers., And the points of easy error."
 date: 16.Dec.2017
 tags:

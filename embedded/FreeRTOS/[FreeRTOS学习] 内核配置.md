@@ -1,5 +1,5 @@
 ---
-title: [FreeRTOS Learning] Kernel Configuration
+title: "[FreeRTOS Learning] Kernel Configuration"
 short: ""
 date: 08.Oct.2016
 tags:

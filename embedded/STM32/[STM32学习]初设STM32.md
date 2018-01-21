@@ -1,5 +1,5 @@
 ---
-title: [Stm32 Learning]  The First Stm32
+title: "[Stm32 Learning]  The First Stm32"
 short: ""
 date: 08.Apr.2016
 tags:

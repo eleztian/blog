@@ -1,5 +1,5 @@
 ---
-title: [FreeRTOS Learning] Kernel Controller
+title: "[FreeRTOS Learning] Kernel Controller"
 short: ""
 date: 12.Oct.2016
 tags:
