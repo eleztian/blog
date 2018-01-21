@@ -1,7 +1,7 @@
 ---
 title: C++ Review Notes 
 short: "C++ does not usually use much, review for the interview.!"
-date: 05.10.2017
+date: 05.Otc.2017
 tags:
     - c++
     - notes

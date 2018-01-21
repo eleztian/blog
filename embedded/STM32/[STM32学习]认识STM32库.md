@@ -1,7 +1,7 @@
 ---
 title: [Stm32 Learning]  About Stm32's Lib
 short: ""
-date: 15.04.2016
+date: 15.Apr.2016
 tags:
     - c
     - stm32

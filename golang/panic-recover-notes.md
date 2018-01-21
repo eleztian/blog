@@ -1,7 +1,7 @@
 ---
 title: [Golang Learning]  Panic Recover And Defer
 short: ""
-date: 17.1.2018
+date: 17.Jan.2018
 tags:
     - c
     - golang

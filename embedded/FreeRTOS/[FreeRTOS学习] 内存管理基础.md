@@ -1,7 +1,7 @@
 ---
 title: [FreeRTOS Learning] The Base Memory Management. 
 short: ""
-date: 10.10.2016
+date: 10.Oct.2016
 tags:
     - c
     - freeRTOS

@@ -1,7 +1,7 @@
 ---
 title: [Code Reading] Tinyhttp
 short: ""
-date: 08.09.2016
+date: 08.Sep.2016
 tags:
     - c
     - Linux

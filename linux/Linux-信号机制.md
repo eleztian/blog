@@ -1,7 +1,7 @@
 ---
 title: [Linux Learning]  Linux Singals
 short: ""
-date: 11.9.2017
+date: 11.Sep.2017
 tags:
     - c
     - embedded

@@ -1,7 +1,7 @@
 ---
 title: [FreeRTOS Learning] Kernel Configuration
 short: ""
-date: 08.10.2016
+date: 08.Oct.2016
 tags:
     - c
     - freeRTOS

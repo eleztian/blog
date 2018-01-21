@@ -1,7 +1,7 @@
 ---
 title: [FreeRTOS Learning] Kernel Controller
 short: ""
-date: 12.10.2016
+date: 12.Oct.2016
 tags:
     - c
     - freeRTOS

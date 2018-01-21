@@ -1,7 +1,7 @@
 ---
 title: [FreeRTOS Learning] Task Control. 
 short: ""
-date: 06.10.2016
+date: 06.Oct.2016
 tags:
     - c
     - freeRTOS

@@ -1,7 +1,7 @@
 ---
 title: [FreeRTOS Learning] Task . 
 short: ""
-date: 07.10.2016
+date: 07.Oct.2016
 tags:
     - c
     - freeRTOS

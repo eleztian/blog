@@ -1,7 +1,7 @@
 ---
 title: [Stm32 Learning]  The First Stm32
 short: ""
-date: 08.04.2016
+date: 08.Apr.2016
 tags:
     - c
     - stm32

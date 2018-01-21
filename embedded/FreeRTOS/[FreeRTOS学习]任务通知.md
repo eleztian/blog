@@ -1,7 +1,7 @@
 ---
 title: [FreeRTOS Learning] Task Notification
 short: ""
-date: 05.10.2016
+date: 05.Oct.2016
 tags:
     - c
     - freeRTOS

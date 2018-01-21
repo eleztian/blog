@@ -1,7 +1,7 @@
 ---
 title: Session Cookies
 short: ""
-date: 21.01.2018
+date: 21.Jan.2018
 tags:
     - c
     - server

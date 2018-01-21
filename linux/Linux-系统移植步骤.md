@@ -1,7 +1,7 @@
 ---
 title: [Linux Learning]  System Migration Steps
 short: ""
-date: 16.9.2017
+date: 16.Sep.2017
 tags:
     - c
     - embedded

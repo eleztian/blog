@@ -1,7 +1,7 @@
 ---
 title: [Linux Learning]  Interprocess Communication
 short: ""
-date: 10.10.2017
+date: 10.Oct.2017
 tags:
     - c
     - embedded
