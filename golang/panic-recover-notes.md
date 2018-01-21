@@ -1,3 +1,13 @@
+---
+title: [Golang Learning]  Panic Recover And Defer
+short: ""
+date: 17.1.2018
+tags:
+    - c
+    - golang
+    - server
+    - notes
+---
 # panic recover and defer
 
 panic-defer(recover): panic 抛出异常， recover捕获异常， recover在defer中使用， 但是recover之后程序逻辑并不会在panic处继续。panic 程序停止运行进入defer中。

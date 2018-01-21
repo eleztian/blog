@@ -1,3 +1,14 @@
+---
+title: [Golang Learning]  Memory Maps
+short: "The notes of golang about memory map."
+date: 15.1.2018
+tags:
+    - c
+    - golang
+    - server
+    - notes
+---
+
 # golang memory map
 
 ```go

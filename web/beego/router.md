@@ -1,3 +1,15 @@
+---
+title: Beego Router
+short: ""
+date: 19.01.2018
+tags:
+    - c
+    - server
+    - web
+    - beego
+    - golang
+    - notes
+---
 # beego-router
 
 beego 默认采用RESTful路由，即什么样的请求执行什么样的方法，post请求执行post方法。
