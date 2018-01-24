@@ -1,5 +1,5 @@
 ---
-title: "[Nsq Learning]  Start And End A Service Of Golang"
+title: "[NSQ Learning]  Start And End A Service Of Golang"
 short: "Learning Nsq to use go-svc and waitgroup to stat and end a service of golang. it's easy to manage goroutine."
 date: 24.Jan.2018
 tags:

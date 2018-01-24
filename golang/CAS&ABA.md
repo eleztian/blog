@@ -1,5 +1,5 @@
 ---
-title: "[Nsq Learning]  CAS And ABA"
+title: "[NSQ Learning]  CAS And ABA"
 short: "Learning NSQ about Compare And Swap."
 date: 24.Jan.2018
 tags:
